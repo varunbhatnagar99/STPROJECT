@@ -17,7 +17,7 @@ $(document).ready(function(){
                     document.getElementById("valuelabel").innerHTML=data.main.temp;         // temperature
                    document.getElementById("cloud").innerHTML=data.weather[0].main;         // cloud
                     document.getElementById("citylabel").innerHTML=data.name+" , "+data.sys.country;        //country and place
-                var icon="http://openweathermap.org/img/w/"+data.weather[0].icon+".png";                //getting cloud image link
+                var icon="https://openweathermap.org/img/w/"+data.weather[0].icon+".png";                //getting cloud image link
                 document.getElementById("icon").src=icon;                                               //setting src
                 //console.log(icon);
 
