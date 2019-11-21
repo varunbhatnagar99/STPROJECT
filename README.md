@@ -6,7 +6,7 @@ important stuff and stay Up to date on International news, New York's very own T
 and our very favourite adrenaline filled sports news in just under 5 minutes! not only
 this but you can also stay updated on the weather in your city !    
 
-#Technologies Used -
+# Technologies Used -
 ## HTML
 ## CSS
 ## BOOTSTRAP
@@ -14,14 +14,14 @@ this but you can also stay updated on the weather in your city !
 ## JQUERY
 ## AJAX
 
-#List of Endpoints - 
+# List of Endpoints - 
 ## Worldwide News :- https://developer.nytimes.com/docs/timeswire-product/1/overview  (api link)[authorization/verification done]
  ![](images/todoapp.JPG)
 ## New York City's Top 10 NEWS  :- https://developer.nytimes.com/docs/top-stories-product/1/overview (api link)[authorization/verification done]
  ![](images/nycitytop10.jpg)
-##Sports News :-
+## Sports News :- https://developer.nytimes.com/docs/articlesearch-product/1/overview
  ![](images/sportsrm.jpg)
 ## Weather Report(City/Country) :- https://openweathermap.org/current (api link)[authorization/verification done]
  ![](images/weatherrm.JPG)
 
-#Live Link : - 
+# Live Link : - 
