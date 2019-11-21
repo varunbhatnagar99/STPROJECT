@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/javaweather.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=B612+Mono|Cabin:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  
+    <link rel="stylesheet" href="css/aos.css">
+    <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+  
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<style>
+#citylabel
+{
+    font-size: 40px;
+}
+#citytext
+{
+    width: 15em;
+    height: 2em;
+    font-size: 26px;
+}
+#clickbut
+{
+    margin-top: 2em;
+    width: 5em;
+    height: 2em;
+}
+button
+{
+    border: none;
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+}
+
+</style>
+<body background="C:\Users\lenovo\Desktop\EVALUATIONPROJECT\images\bgbg.jpg" style="height:100%; 
+background-position:center;background-repeat:repeat-y;background-size:cover;">
+ <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
+
+    <div class="container">
+      <div class="d-flex align-items-center">
+        
+        <div class="mr-auto">
+          <nav class="site-navigation position-relative text-right" role="navigation">
+            <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+              <li class="active">
+                <a href="C:\Users\lenovo\Desktop\EVALUATIONPROJECT\Resume 2\Index.html" class="nav-link text-left">MY RESUME</a>
+              </li>
+              <li>
+                <a href="index.html" class="nav-link text-left">WORLDWIDE TRENDING</a>
+              </li>
+              <li>
+                <a href="top10.html" class="nav-link text-left">NY-CITY TOP 10 </a>
+              </li>
+                <a href="sports.html" class="nav-link text-left">SPORTS</a>
+              </li>
+              <li><a href="#" class="nav-link text-left">CONTACT</a></li>
+              <li><a href="weather.html" class="nav-link text-left">WEATHER INFORMATION</a></li>
+              
+
+            </ul>                                                                                                                                                                                                                                                                                         
+          </nav>
+
+        </div>
+       
+      </div>
+    </div>
+
+  </div>
+  
+  </div>
+    <div style="text-align: center;">
+            <br><br><br><br>
+            <div id="citylabel" style="color:white">Ola Amigo, Which city or country's weather are you interested in ?</div>                      <!-- city name-->
+            <h3 id="dayandtime"></h3>                                            <!-- time-->
+            <div id="cloud"></div><img id="icon" src="" alt="">                      <!--cloud image-->
+            <br>
+            <button  id="cel">Ce</button>&nbsp;               <!-- buttons-->
+            <button  id="far">Fa</button>                      <!--""-->
+            <h1 id="valuelabel"></h1>                        <!--value-->
+        <br>
+        <input type="text" id="citytext" placeholder="Enter city's name!">
+        <br>
+        <h4 id="feedback"></h4>                              <!-- to print city not found-->
+        
+        <div class="site-section subscribe bg-light" style="margin-top:170px">
+          <div class="container">
+            <form action="#" class="row align-items-center">
+              <div class="col-md-5 mr-auto">
+                <h2>Newsletter Subscribe</h2>
+                <p>Hey there! Liked our content ? For more interesting and happening news subscribe to our newsletter!</p>
+              </div>
+              <div class="col-md-6 ml-auto">
+                <div class="d-flex">
+                  <a href="https://www.facebook.com/varunbhtnagar" class="d-inline-block p-3"><span class="icon-facebook" style="font-size:58px;"></span></a>
+                    <a href="https://github.com/varunbhatnagar99" class="d-inline-block p-3"><span class="icon-github"style="font-size:58px;"></span></a>
+                    <a href="https://www.instagram.com/sanctionedvarunbhatnagar/" class="d-inline-block p-3"><span class="icon-instagram" style="font-size:58px;"></span></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+    </div>
+    
+</body>
+</html>

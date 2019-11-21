@@ -1,0 +1,406 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Big Shoulders Text', cursive;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	background-color: #2B2A30;
+}
+body {
+
+	scroll-snap-type: y mandatory;
+}
+
+#first{
+	color : white;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	scroll-snap-align: start;
+}
+.circle {
+	position: absolute;
+	left: -20%;
+	background-color: green;
+	width: 50%;
+	height: 100vh;
+	z-index: 2;
+}
+.circle h1 {
+	position: relative;
+	top: 40%;
+	left: 43%;
+	color:white;
+	font-family: 'Big Shoulders Text', cursive;
+}
+.circle h1 span {
+	font-size: 50px;
+	letter-spacing: 1px;
+}
+.circle2 {
+	border-block-start-style: dashed;
+	position: absolute;
+	left: -15%;
+	background-color: orange;
+	width : 60%; 
+	height: 140vh;
+z-index:1;
+}
+.circle3 {
+	position: absolute;
+	left: -10%;
+	background-color: yellow;
+	width: 150%;
+	height: 140vh;
+	z-index:0;
+}
+#main {
+	width: 90%;
+	height: 80vh;
+	border-radius: 25px;
+	box-shadow: 5px 5px 30px gray;
+	padding: 50px;
+	z-index:1;
+	background-color : #2B2A30;
+}
+
+#main nav ul {
+
+	text-align: right;
+	font-weight:500;
+	
+}
+#main nav ul li {
+	display: inline;
+	margin-left : 10px;
+	margin-right: 30px;
+	font-size: 70px;
+}
+#main nav ul li a {
+	text-decoration:aqua;
+	color: white;
+}
+#main nav ul li:hover a{
+	font-size-adjust: 1.3;
+	font-weight:900;
+	color:#ffae42;
+}
+.last {
+	margin-right: 0;
+}
+
+#main div {
+	margin-top: 6%;
+	width: 50%;
+	float: right;
+}
+#main div h1 span {
+	font-size: 60px;
+}
+#main div h1 {
+	margin-top: 1%;
+	font-size: 50px;
+	letter-spacing: 1px;
+	align : left;
+}
+#main div p {
+	margin-left: 1%;
+	width: 70%;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 5%;
+	align: center;
+}
+#main div a {
+	width: 100px;
+	padding: 10px;
+	border-radius: 15px;
+	outline: none;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+
+/*Section 2*/
+#second {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 30px;
+	background-color: #2B2A30;
+	scroll-snap-align: start;
+}
+#second h1 {
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	color: white;
+}
+#second hr {
+	position: relative;
+	top: -10px;
+	width: 100px;
+	height: 2px;
+	background-color: #33ff00;
+	margin-bottom: 4%;
+	border: none;
+}
+#second p {
+	width: 70%;
+	text-align: justify;
+	margin: 0 auto;
+	font-size: 30px;
+	line-height: 34px;
+	color: white;
+	font-family: 'Big Shoulders Text', cursive;
+}
+#second div {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 3%;
+	background-color: #000;
+}
+#second img {
+
+	width: 300px;
+	height: 300px;
+}
+#third {
+	width: 100%;
+	height: 100vh;
+	background-color: #2B2A30;
+	scroll-snap-align: start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+#third h1 {
+	position: relative;
+	left: -10%;
+	z-index: 2;
+	font-size: 80px;
+	color: #fff;
+	font-family: 'Big Shoulders Text', cursive;
+	transform: rotate(270deg);
+}
+.circle5 {
+	position: absolute;
+	left: -30%;
+	background-color: #399a41;
+	width: 50%;
+	height: 140vh;
+	opacity: 0.5;
+}
+.circle6 {
+	position: absolute;
+	left: -25%;
+	background-color: #38df7b;
+	width: 150%;
+	height: 140vh;
+	opacity: 0.3;
+}
+.block {
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+}
+.block img {
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+	cursor: pointer;
+}
+.block:hover img {
+	transform: scale(1.25) rotate(10deg);
+}
+.blacklayer {
+	width: 400px;
+	height: 200px;
+	background-color: #2B2A30;
+	pointer-events: none;
+	transition: all 0.5s;
+	opacity : 0.4;
+
+}
+.block:hover .blacklayer {
+	transform: translateY(-400px);
+}
+.gallery{
+z-index: 1;
+}
+#fourth {
+	padding-top: 1%;
+	width: 100%;
+	height: 50vh;
+	box-sizing: border-box;
+	scroll-snap-align: start;
+	overflow: hidden;
+}
+#fourth h1 {
+	text-align: center;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 53px;
+	color : white;
+	 
+}
+.slider {
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	height: 190px;
+	background:#2B2A30;
+	box-shadow: 0 10px 20px -10px rgba(0,0,0,.2);
+	overflow: hidden;
+	display: flex;
+	margin-bottom: 3%;
+}
+.slide {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	animation: slideshow 15s linear infinite;
+	background-color: #2B2A30;
+}
+
+.slide i {
+	font-size: 140px;
+	padding: 0 30px 0 30px;
+}
+
+
+.icons {
+	text-align: center;
+	font-size: 50px;
+}
+.icons i {
+	color:
+	#4F67B1;
+	margin-right: 4px;
+}
+.icons i:hover {
+	color:#38B4C1;
+}
+
+#fifth {
+	padding-top: 1%;
+	width: 100%;
+	height: 30vh;
+	box-sizing: border-box;
+	scroll-snap-align: start;
+	overflow: hidden;
+}
+#fifth h1 {
+	text-align: center;
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 53px;
+	color : white;
+
+}
+.footer {
+	margin-top: 6%;
+	background-color: #2B2A30;
+	height:30vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer p {
+	letter-spacing: 2px;
+	font-size: 80px;
+	font-family: 'Big Shoulders Text', cursive;;
+
+	margin-top: -25px;
+}
+@keyframes slideshow {
+    80% {
+		transform: translate(+100%);
+	}
+	80% {
+		transform: translate(-100%);
+	}
+}
+@media(max-width: 450px) {
+	.circle h1 {
+		display: none;
+	}
+	#main nav ul .last {
+		display: none;
+	}
+	#main nav ul li {
+		margin-right: 20px;
+	}
+	#main div {
+		margin-top: 20%;
+	}
+	#main div h1 {
+		font-size: 16px;
+	}
+	#main div h1 span {
+		font-size: 24px;
+	}
+	#main div p {
+		margin-left: 15%;
+		width: 80%;
+		margin-bottom: 70%;
+	}
+	#btn1{
+		margin-left: 10%;
+		margin-bottom: 10%;
+		display: block;
+	}
+	#btn2 {
+		display: block;
+	}
+	#second p{
+		width: 90%;
+		line-height: 20px;
+		font-size: 14px;
+		margin-bottom: 10%;
+	}
+	#second div {
+		width: 200px;
+		height: 200px;
+	}
+	#second img {
+		width: 200px;
+		height: 200px;
+	}
+	#third td {
+		float: left;
+	}
+	#third h1 {
+		left: -1%;
+		font-size: 40px;
+	}
+	.block {
+		width: 210px;
+		height: 100px;
+		margin-bottom: 20px;
+	}
+	#fourth {
+		height: 650px;
+	}
+	#fourth h1 {
+		margin-top: 14%;
+	}
+	#fifth {
+		height: 650px;
+	}
+	#fifth h1 {
+		margin-top: 14%;
+	}
+	.footer {
+		margin-top: 15%;
+	}
+}
