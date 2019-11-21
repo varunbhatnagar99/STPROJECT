@@ -7,7 +7,7 @@ $(document).ready(function(){
         var city = $("#citytext").val();        //getting city name
             $.ajax({
                 url:"http://api.openweathermap.org/data/2.5/weather?q="+city+"&units="+a+
-                "&APPID=d22bdd8f42f4fc713ac197a8cbf0eaec",              // url and key
+                "&APPID=61054426a5ea418c25d14d9617bbe531",              // url and key
                 type:"GET",
                 datatype:"jsonp",           //data type
                 success:function(data)
